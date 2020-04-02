@@ -85,6 +85,7 @@ form{
   width: 100%;
 }
 input{
+  -webkit-appearance: none;
   padding: 1rem;
   border: hsl(243, 87%, 80%) 1px solid;
   border-radius: 0.4rem;
@@ -93,6 +94,7 @@ input{
   margin: 0.5rem auto;
 }
 input[type=submit]{
+  -webkit-appearance: none;
   color: #fff;
   background: hsl(224, 93%, 58%);
   border: none;
