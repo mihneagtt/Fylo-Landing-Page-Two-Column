@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+a{
+  text-decoration: none;
+  color: inherit;
+}
 header{
   position: relative;
   display: flex;
@@ -39,7 +43,7 @@ nav{
 nav ul{
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   display:flex;
   list-style: none;
   justify-content: space-between;
