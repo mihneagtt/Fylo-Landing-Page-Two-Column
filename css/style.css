@@ -9,7 +9,7 @@ a{
 }
 header{
   position: relative;
-  display: flex;
+  display: -webkit-flex;
   width: 88%;
   margin: auto;
   padding-top: 2rem;
@@ -17,9 +17,9 @@ header{
 }
 h1{
   font-family: 'Raleway', sans-serif;
-  font-weight:700;
+  font-weight: 700;
   font-size: 1.6rem;
-  line-height:2.2rem;
+  line-height: 2.2rem;
   color: hsl(243, 87%, 12%);
 }
 p{
@@ -29,22 +29,22 @@ p{
   line-height: 1.35rem;
 }
 .logo{
-  flex:1;
-  display:flex;
-  align-items:center;
+  -webkit-flex: 1;
+  display: -webkit-flex;
+  align-items: center;
 }
 .logo img{
   width: 55%;
-  height:auto;
+  height: auto;
 }
 nav{
-  width:50%
+  width: 50%
 }
 nav ul{
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 0.9rem;
-  display:flex;
+  display: -webkit-flex;
   list-style: none;
   justify-content: space-between;
 }
@@ -55,15 +55,15 @@ nav ul li{
   padding-top: 5rem;
   padding-bottom: 6rem;
   width: 88%;
-  margin:auto;
-  display:flex;
-  flex-direction: column;
+  margin: auto;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
   align-items: center;
   text-align: center;
 }
 .illustration1Block{
-  display: flex;
-  flex-direction: column;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
   align-items: center;
   padding-bottom: 2.3rem;
 }
@@ -72,8 +72,8 @@ nav ul li{
   height: auto;
 }
 form{
-  display: flex;
-  flex-direction: column;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
 }
 .section1Text p{
   width: 95%;
@@ -85,9 +85,9 @@ form{
   width: 100%;
 }
 input{
-  padding:1rem;
+  padding: 1rem;
   border: hsl(243, 87%, 80%) 1px solid;
-  border-radius: .4rem;
+  border-radius: 0.4rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   width: 90%;
   margin: 0.5rem auto;
@@ -112,8 +112,8 @@ input:focus{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .section2{
-  display: flex;
-  flex-direction: column;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
   align-items: center;
   background: hsl(240, 75%, 98%);
 }
@@ -125,8 +125,8 @@ input:focus{
   width: 90%;
   margin: auto;
   padding-top: 4rem;
-  display: flex;
-  flex-direction: column;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
 }
 .section2Text h2{
   font-family: 'Raleway', sans-serif;
@@ -137,7 +137,7 @@ input:focus{
   padding-bottom: 1.2rem;
 }
 .description{
-  padding-bottom:1rem;
+  padding-bottom: 1rem;
   font-size: 1rem;
   line-height: 1.4rem;
   color: hsl(238, 22%, 44%);
@@ -160,7 +160,7 @@ input:focus{
 }
 .quoteBox{
   width: 95%;
-  margin:auto;
+  margin: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   background: #fff;
   padding: 1.5rem;
@@ -168,7 +168,7 @@ input:focus{
   margin-bottom: 5rem;
 }
 .quoteBox h3{
-  padding-top:0.4rem;
+  padding-top: 0.4rem;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 0.8rem;
@@ -184,7 +184,7 @@ input:focus{
 }
 .avatarInfo{
   padding-top: 1rem;
-  display: flex;
+  display: -webkit-flex;
   align-items: center;
 }
 .avatarInfo img{
@@ -194,11 +194,11 @@ input:focus{
   margin-right: 0.6rem;
 }
 .section3{
-  background:hsl(238, 22%, 44%);
-  display:flex;
-  flex-direction: column;
+  background: hsl(238, 22%, 44%);
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
   align-items: center;
-  padding:2rem;
+  padding: 2rem;
   padding-bottom: 3rem;
 }
 .section3Text{
@@ -217,7 +217,7 @@ input:focus{
 }
 .section4{
   background: hsl(243, 87%, 12%);
-  padding:3rem 2rem;
+  padding: 3rem 2rem;
 }
 .logoBottom{
   width: 50%;
@@ -227,7 +227,7 @@ input:focus{
 .contact{
   padding-top: 2rem;
   padding-bottom: 2rem;
-  display:inline-grid;
+  display: inline-grid;
   grid-template-columns: auto auto;
   grid-gap: .9rem 1rem;
 }
@@ -258,7 +258,7 @@ input:focus{
     font-size: 1.3rem;
   }
   .section1{
-    flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
     justify-content: space-between;
     text-align: left;
   }
@@ -266,19 +266,19 @@ input:focus{
     width: 100%;
   }
   .firstForm{
-    flex-direction: row;
+    -webkit-flex-direction: row;
   }
   .input{
     width: 100%;
   }
   .desktop{
-    display: flex;
-    flex-direction: column;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
     width: 65%;
     padding-right: 15rem;
   }
   .illustration1Block{
-    align-items: flex-end;
+    align-items: -webkit-flex-end;
     width: 45%;
   }
   .illustration1{
@@ -292,7 +292,7 @@ input:focus{
     margin-left: 1.2rem;
   }
   .section2{
-    flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
     padding: 0 4.5rem; 
   }
   .illustration2{
@@ -310,7 +310,7 @@ input:focus{
     font-size: 2.1rem;
   }
   .greenText{
-    align-self: flex-start;
+    align-self: -webkit-flex-start;
   }
   .quoteBox{
     width: 65%;
@@ -331,7 +331,7 @@ input:focus{
     background:hsl(240, 75%, 98%);
   }
   .section3{
-    flex-direction: row;
+    -webkit-flex-direction: row;
     padding-bottom: 2rem;
     height: 50vh;
   }
@@ -354,7 +354,7 @@ input:focus{
     padding-bottom: 2rem;
   }
   .section4Info{
-    display:flex;
+    display:-webkit-flex;
     align-items: flex-start;
     justify-content: space-between;
     width: 63%;
